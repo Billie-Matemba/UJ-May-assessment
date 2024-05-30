@@ -1,38 +1,71 @@
 {
-    "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+    "user": {
+        "fullName": " Billie Takunda Matemba",
+        "photo": "",
+        "phone": " +27 65 958 0239",
+        "email": " billiematemba133@gmail.com"
     },
-    "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+    "education": {
+        "institutionName": "University Of Johannesburg",
+        "city": "02/2019 - 12/2022 | Johannesburg, South Africa",
+        "Degree": "BEng Tech in Chemical Engineering"
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+    "Profile": {
+        "description": "Versatile chemical engineering graduate with proven leadership and problem-solving skills. Experienced in IT (Cardano nodes, Ubuntu istallation, documentation). Currently learning full-stack web development (CSS, HTML, JavaScript, machine learning). Passionate about sustainable chemical processes and eager to contribute to innovative engineering solutions. Seeking opportunities to leverage my diverse skill set in a dynamic professional environment. "
+    },
+    "Skill": {
+        "Skills": [
+            "Microsoft Office",
+            "Time management",
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "Machine learning"
+        ]
+    },
+    "experience": {
+        "companyName": " Copy Express, Cyber Cafe attendant",
+        "date": "03/2023 - 06/2023 | Honeydew, South Africa",
+        "description": "Assit customers with software-related issues and provide excellent customer care.",
+        "descrip": "Responsible for sales logging, inventory management, and customer time tracking."
+    },
+    "achievements": {
+        "one": "Merit bursary award (obtained 70%' average) 2021.",
+        "two": "Improved overall sales at Copy Express by 10%",
+        "three": "Implemented an online bookeeping system at Copy Express to keep better track of sales and expenses."
+    },
+    "languages": {
+        "language": [
+            "English (Fluent)",
+            "Tswana (Proficient)",
+            "Zulu (Proficient)"
+        ]
+    },
+    "foreignLanguage": {
+        "language": "",
+        "phrases": [
+            {
+                "englishPhrase": "",
+                "foreignLanguage": ""
+            },
+            {
+                "englishPhrase": "",
+                "foreignLanguage": ""
+            }
+        ]
+    },
+    "favouriteSubjects": [
+        {
+            "name": "",
+            "description": ""
         },
         {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
-    },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
+            "name": "",
+            "description": ""
         },
         {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
+            "name": "",
+            "description": ""
         }
     ]
 }

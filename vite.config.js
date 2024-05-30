@@ -4,7 +4,6 @@ import data from './data.json';
 export default {
   plugins: [
     handlebars({
-      context: {}, // replace the curly brackets with data.json
-    }),
-  ],
+      context: data
+    })],
 };

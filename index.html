@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="simple-grid.css">
+    <title> My CV</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+   
+    <div class="row">
+    <div class="col-6 block">
+        <h2>{{user.fullName}}</h2>
+       <p>{{user.phone}}</p> 
+        <p>{{user.email}}</p>
+    </div>
+    <div class="col-6 block">
+        <h2>Education</h2>
+        <P><b>{{education.Degree}}</b></P>
+        <p><b>{{education.institutionName}}</b></p>
+        <p><b>{{education.city}}</b></p>
+     </div>    
+   </div>
+
+   <div class="row">
+   <div class="col-6 block">
+    <h2>Profile</h2>
+    <P class="font">{{Profile.description}}</P>
+   </div>
+    <div class="col-6 block">
+       <h2>Work Experience</h2>
+       <p> <b>{{experience.companyName}}</b></p> 
+       <p> <b>{{experience.date}}</b></p>
+       <p><li>{{experience.description}}</p></li>
+       <p><li> {{experience.descrip}}</li></p>
+    </div>
+</div>
+
+
+<div class="row">
+<div class="col-6 block">
+    <h2>Skills</h2>
+    <ul>
+        {{#each Skill.Skills}}
+        <li> {{this}}</li>
+        {{/each}}
+
+    </ul>
+</div>
+<div class="col-6 block">
+    <h2> Achievements</h2>
+    <p> <li>{{achievements.one}}</li></p>
+    <p> <li>{{achievements.two}}</li></p>
+    <p><li>{{achievements.three}}</li> </p>
+    
+</div>
+</div>
+
+
+<div class=row>
+    <div class="col-6 block">
+    <h2>Languages</h2>
+    <ul>
+        {{#each languages.language}}
+        <li> {{this}}</li>
+        {{/each}}
+    </ul>
+
+</div>
+</div>
 </body>
 </html>
